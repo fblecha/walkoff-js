@@ -1,4 +1,17 @@
-# Walkoff-js
+<!-- TOC -->
+
+- [Walkoff-js Description](#walkoff-js-description)
+- [Assumptions](#assumptions)
+- [Tech Stack](#tech-stack)
+- [Getting Setup -](#getting-setup--)
+    - [Setup your local development environment.](#setup-your-local-development-environment)
+    - [Setup your new project](#setup-your-new-project)
+- [Notes](#notes)
+
+<!-- /TOC -->
+
+
+# Walkoff-js Description
 
 This is an ***opinionated*** set of choices for starting a new software product. 
 I believe starting a new project should feel like this:
@@ -9,17 +22,7 @@ and not like this:
 
 ![Hit by pitch](./hitbypitch.gif)
 
-<!-- TOC -->
 
-- [Walkoff-js](#walkoff-js)
-- [Assumptions](#assumptions)
-- [Tech Stack](#tech-stack)
-- [Getting Setup -](#getting-setup--)
-    - [Setup your local development environment.](#setup-your-local-development-environment)
-    - [Setup your new project](#setup-your-new-project)
-- [Notes](#notes)
-
-<!-- /TOC -->
 
 
 # Assumptions
@@ -76,26 +79,25 @@ If you don't agree with the setup, then the selections below won't make sense.  
 
 # Tech Stack
 
-|Component | Choice| Reason |
-|--|---|---|
-|IDE  | VS Code | Free + Debugger + support for React Native | 
-|iOS App | React Native + Swift | JavaScript + Ability to drop into Swift as needed.  Ability to share code across iOS, Android, and ***possibly*** web.
-|Android App| React Native + Android | Same reasoning as iOS |
-|Web | React + Relay | React is becoming defacto these days and Facebook seems focused on having good tooling around it.  Relay for GraphQL support|
-|API| GraphQL | GraphQL = Schema + Fast Development + ***possibly*** fast Performance (client network traffic)|
-|Node Package Manager | yarn | Yarn is replacing npm as of late 2017.  
-| Unit Test Framework | TBD | |
-| Integration Test Framework | TBD | | 
-| Performance Test Framework | TBD | | 
-| Code Coverage Tool | TBD | |
-| Continous Integration | TBD | | 
-| Continous Deployment | TBD | |
-| Source Code | TBD | | 
-| API Documentation | TBD | | 
-| Source Code Documentation | TBD | | 
-| JavaScript linter | TBD | | 
-| Version Controll | git | |
-
+| Component                  | Choice                 | Reason                                                                                                                       |
+|----------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| IDE                        | VS Code                | Free + Debugger + support for React Native                                                                                   |
+| iOS App                    | React Native + Swift   | JavaScript + Ability to drop into Swift as needed.  Ability to share code across iOS, Android, and ***possibly*** web.       |
+| Android App                | React Native + Android | Same reasoning as iOS                                                                                                        |
+| Web                        | React + Relay          | React is becoming defacto these days and Facebook seems focused on having good tooling around it.  Relay for GraphQL support |
+| API                        | GraphQL                | GraphQL = Schema + Fast Development + ***possibly*** fast Performance (client network traffic)                               |
+| Node Package Manager       | yarn                   | Yarn is replacing npm as of late 2017.                                                                                       |
+| Unit Test Framework        | TBD                    |                                                                                                                              |
+| Integration Test Framework | TBD                    |                                                                                                                              |
+| Performance Test Framework | TBD                    |                                                                                                                              |
+| Code Coverage Tool         | TBD                    |                                                                                                                              |
+| Continous Integration      | TBD                    |                                                                                                                              |
+| Continous Deployment       | TBD                    |                                                                                                                              |
+| Source Code                | TBD                    |                                                                                                                              |
+| API Documentation          | TBD                    |                                                                                                                              |
+| Source Code Documentation  | TBD                    |                                                                                                                              |
+| JavaScript linter          | TBD                    |                                                                                                                              |
+| Version Controll           | git                    |                                                                                                                              |
 
 
 # Getting Setup -
