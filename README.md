@@ -9,6 +9,18 @@ and not like this:
 
 ![Hit by pitch](./hitbypitch.gif)
 
+<!-- TOC -->
+
+- [Walkoff-js](#walkoff-js)
+- [Assumptions](#assumptions)
+- [Tech Stack](#tech-stack)
+- [Getting Setup -](#getting-setup--)
+    - [Setup your local development environment.](#setup-your-local-development-environment)
+    - [Setup your new project](#setup-your-new-project)
+- [Notes](#notes)
+
+<!-- /TOC -->
+
 
 # Assumptions
 
