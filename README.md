@@ -1,3 +1,15 @@
+# Walkoff-js Description
+
+This is an ***opinionated*** set of choices for starting a new software product. 
+I believe starting a new project should feel like this:
+
+![Walloff Home run](./walkoff.gif)
+
+and not like this:
+
+![Hit by pitch](./hitbypitch.gif)
+
+
 ***Table of Contents***
 <!-- TOC -->
 
@@ -28,17 +40,6 @@
 
 <!-- /TOC -->
 
-
-# Walkoff-js Description
-
-This is an ***opinionated*** set of choices for starting a new software product. 
-I believe starting a new project should feel like this:
-
-![Walloff Home run](./walkoff.gif)
-
-and not like this:
-
-![Hit by pitch](./hitbypitch.gif)
 
 
 
