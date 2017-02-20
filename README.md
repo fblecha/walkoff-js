@@ -14,7 +14,13 @@
     - [Assumption - DevOps](#assumption---devops)
     - [Assumption - Cloud](#assumption---cloud)
     - [Assumption - Ownership vs "Throw it over the wall"](#assumption---ownership-vs-throw-it-over-the-wall)
-- [Tech Stack](#tech-stack)
+- [Tech Stack Summary](#tech-stack-summary)
+    - [Tech Stack - Details](#tech-stack---details)
+    - [IDE - VS Code](#ide---vs-code)
+    - [iOS App Development](#ios-app-development)
+    - [Android App Development](#android-app-development)
+    - [Web Development](#web-development)
+    - [API Development](#api-development)
 - [Getting Setup -](#getting-setup--)
     - [Setup your local development environment.](#setup-your-local-development-environment)
     - [Setup your new project](#setup-your-new-project)
@@ -98,7 +104,7 @@ this setup assumes the following:
 If you don't agree with the setup, then the selections below won't make sense.  That's entirely ok, as there are thousands of other choices 
 ***that are likely better*** for your assumptions on software development.
 
-# Tech Stack
+# Tech Stack Summary
 
 | Component                  | Choice                 | Reason                                                                                                                       |
 |----------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------------|
@@ -119,6 +125,31 @@ If you don't agree with the setup, then the selections below won't make sense.  
 | Source Code Documentation  | TBD                    |                                                                                                                              |
 | JavaScript linter          | TBD                    |                                                                                                                              |
 | Version Controll           | git                    |                                                                                                                              |
+
+
+## Tech Stack - Details
+
+## IDE - VS Code
+
+For this stack, there's at least three IDEs/editors that should be considered for your primary IDE or editor.  
+1.  Atom
+Atom is an awesome editor and has a lot of support from the opensource community.  If it wsan't for the integrated debugger, I'd recommend Atom over VS Code.
+
+2. WebStorm
+WebStorm is an awesome IDE and if you're coming from a background using their other tools 
+(AppCode, RubyMine, Intellij, etc.), then maybe this should be your choice.  However, it's 
+the only nonfree IDE on this list.
+
+3. VS Code
+About the same functionality as Atom, but with the addition of an integrated debugger.
+
+## iOS App Development
+
+## Android App Development
+
+## Web Development
+
+## API Development
 
 
 # Getting Setup -
