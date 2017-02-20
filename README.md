@@ -3,7 +3,17 @@
 
 - [Walkoff-js Description](#walkoff-js-description)
 - [Assumptions](#assumptions)
-    - [Cost](#cost)
+    - [Assumption - Cost](#assumption---cost)
+    - [Assumption - Primary language](#assumption---primary-language)
+    - [Assumption - Testing](#assumption---testing)
+    - [Assumption -  Web](#assumption----web)
+    - [Assumption - Mobile](#assumption---mobile)
+    - [Assumption - Server](#assumption---server)
+    - [Assumption - APIs](#assumption---apis)
+    - [Assumption - Developer Environment](#assumption---developer-environment)
+    - [Assumption - DevOps](#assumption---devops)
+    - [Assumption - Cloud](#assumption---cloud)
+    - [Assumption - Ownership vs "Throw it over the wall"](#assumption---ownership-vs-throw-it-over-the-wall)
 - [Tech Stack](#tech-stack)
 - [Getting Setup -](#getting-setup--)
     - [Setup your local development environment.](#setup-your-local-development-environment)
@@ -32,48 +42,56 @@ and not like this:
 You're trying to build a "modern" app.  While there are literally thousands of ways to do this, 
 this setup assumes the following:
 
-## Cost
+## Assumption - Cost
 * Prefer free/opensource over spending money.  
 * Spend money on tools if it saves significant time.
 * Prefer operational expense vs capital expense.
 
 
-2. Primary language
-    * JavaScript all the things (where possible).  JavaScript has more reach (available platforms) than any other programming language.
-2. Testing
-    * All tests will be in JavaScript where possible.
-    * Unit tests test developer code changes at the atomic level.
-    * Integration tests test code changes at either the API or UI level.
-    * Performance tests test code changes that impact performance, with some level of tolerance.
-    * More code coverage is better, but 100% doesn't mean correct.  
-3. Web 
-    * Web - React & either Redux or Relay
-    * Target Chrome, Safari, and IE
-4. Mobile
-    * You may have up to three deliveries on mobile: iOS, Android, & mobile web.
-    * iOS - React Native + Swift
-    * Android - React Native + Android
-    * Mobile Web - Same as Web + responsive CSS 
-5. Server 
-    * JavaScript 
-    * In a container environment = Docker + Node.js
-    * In a serverless environment = Node.js
-6. APIs
-    * For client-facing APIs, prefer GraphQL over REST, but REST is still ok.
-    * For server-facing APIs, prefer gRPC or Protocol Buffers over REST.
-7. Developer Environment
-    * Prefer Mac for local development. Avoid Windows for local development [(1)](#subnote_1)
-8. DevOps
-    * DevOps is a philosophy that can be supported by tooling.
-    * DevOps doesn't mean developers don't have to understand their infrastructure.
-9. Cloud
-    * Prefer Amazon Web Services by default unless one of the following apply:
-    * Prefer Google if you need something specific that Google offers (e.g. Firebase, Spanner, etc.)
-10. Ownership vs "Throw it over the wall"
-    * Prefer people and teams to own their products vs a "throw it over the wall" model.
-    * This Implies that people will have production support of their code (at some level)
-    * Which implies that APM, failover, degradation, and indicident management need to be 
-    backed into the product versus tacked onto the product.
+## Assumption - Primary language
+* JavaScript all the things (where possible).  JavaScript has more reach (available platforms) than any other programming language.
+
+## Assumption - Testing
+* All tests will be in JavaScript where possible.
+* Unit tests test developer code changes at the atomic level.
+* Integration tests test code changes at either the API or UI level.
+* Performance tests test code changes that impact performance, with some level of tolerance.
+* More code coverage is better, but 100% doesn't mean correct.  
+
+## Assumption -  Web 
+* Web - React & either Redux or Relay
+* Target Chrome, Safari, and IE
+
+## Assumption - Mobile
+* You may have up to three deliveries on mobile: iOS, Android, & mobile web.
+* iOS - React Native + Swift
+* Android - React Native + Android
+* Mobile Web - Same as Web + responsive CSS 
+
+## Assumption - Server 
+* JavaScript 
+* In a container environment = Docker + Node.js
+* In a serverless environment = Node.js
+
+## Assumption - APIs
+* For client-facing APIs, prefer GraphQL over REST, but REST is still ok.
+* For server-facing APIs, prefer gRPC or Protocol Buffers over REST.
+
+## Assumption - Developer Environment
+* Prefer Mac for local development. Avoid Windows for local development [(1)](#subnote_1)
+
+## Assumption - DevOps
+* DevOps is a philosophy that can be supported by tooling.
+* DevOps doesn't mean developers don't have to understand their infrastructure.
+
+## Assumption - Cloud
+* Prefer Amazon Web Services by default unless one of the following apply:
+* Prefer Google if you need something specific that Google offers (e.g. Firebase, Spanner, etc.)
+
+## Assumption - Ownership vs "Throw it over the wall"
+* Prefer people and teams to own their products vs a "throw it over the wall" model.
+* This implies that people will be responsible for production support of their code (at some level)
+* This also implies that APM, failover, degradation, and indicident management need to be backed into the product versus tacked onto the product.
 
 
 
