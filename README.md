@@ -1,7 +1,9 @@
+***Table of Contents***
 <!-- TOC -->
 
 - [Walkoff-js Description](#walkoff-js-description)
 - [Assumptions](#assumptions)
+    - [Cost](#cost)
 - [Tech Stack](#tech-stack)
 - [Getting Setup -](#getting-setup--)
     - [Setup your local development environment.](#setup-your-local-development-environment)
@@ -29,10 +31,11 @@ and not like this:
 
 You're trying to build a "modern" app.  While there are literally thousands of ways to do this, 
 this setup assumes the following:
-1. Cost
-    * Prefer free/opensource over spending money.  
-    * Spend money on tools if it saves significant time.
-    * Prefer operational expense vs capital expense.
+
+## Cost
+* Prefer free/opensource over spending money.  
+* Spend money on tools if it saves significant time.
+* Prefer operational expense vs capital expense.
 
 
 2. Primary language
