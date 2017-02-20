@@ -18,6 +18,8 @@ this setup assumes the following:
     * Prefer free/opensource over spending money.  
     * Spend money on tools if it saves significant time.
     * Prefer operational expense vs capital expense.
+
+
 2. Primary language
     * JavaScript all the things (where possible).  JavaScript has more reach (available platforms) than any other programming language.
 2. Testing
